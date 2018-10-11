@@ -24,7 +24,7 @@ def PSNR(imgA,imgB):
         for j in range(cols):
             sumimg=sumimg+((float(imgA[i,j])-float(imgB[i,j]))**2)
     mse=sumimg/(rows*cols)
-    const=25 5**2
+    const=255**2
     frac=float(const/mse)
     return 10*np.log10(frac)
     
