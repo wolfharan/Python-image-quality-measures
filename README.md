@@ -1,5 +1,5 @@
 # Python-image-quality-measures
-A python implementation of widely used image quality measures- MSE, PSNR, Average Difference,Normalized Correlation, Maximum Difference,Normalized Absolute Error and Structural Content. 
+A python implementation of widely used image quality measures- MSE, PSNR, Average Difference,Normalized Correlation, Maximum Difference,Normalized Absolute Error,Structural Content and SSIM.
 
 measure.py file contains the implementation of the widely used image quality measures which are- Mean Square Error, PSNR, Maximum Difference,Normalized Absolute Error, Average Difference, Normalized correlation, Normalized Absolute error and Structural content.
 You can use this in your projects by following the below given steps-
